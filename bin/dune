@@ -1,0 +1,4 @@
+(executable
+ (public_name main)
+ (package opium_heroku_example)
+ (libraries opium logs))
