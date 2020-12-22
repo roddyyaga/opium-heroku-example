@@ -6,5 +6,5 @@
 
 (package
  (name opium_heroku_example)
- (synopsis "An example Opium example")
+ (synopsis "An example Opium project")
  (depends dune opium logs))
