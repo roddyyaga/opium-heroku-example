@@ -7,4 +7,4 @@
 (package
  (name opium_heroku_example)
  (synopsis "An example Opium project")
- (depends dune opium logs))
+ (depends dune opium logs caqti))

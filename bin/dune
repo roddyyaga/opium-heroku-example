@@ -1,4 +1,4 @@
-(executable
- (public_name main)
+(executables
+ (public_names main other)
  (package opium_heroku_example)
- (libraries opium logs))
+ (libraries opium logs caqti))
