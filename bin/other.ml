@@ -1,6 +1,5 @@
 let rec main () =
-    print_endline "Stdout!!!";
-    prerr_endline "Stderr!!!";
+    print_endline "A worker task doing something";
     Unix.sleep 5;
     main ()
 
