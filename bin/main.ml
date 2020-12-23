@@ -1,7 +1,7 @@
 open Opium
 
 let handler req =
-  Printf.sprintf "Hello, %s!99\n" (Router.param req "name")
+  Printf.sprintf "Hello, %s!\n" (Router.param req "name")
   |> Response.of_plain_text |> Lwt.return
 
 let port =
